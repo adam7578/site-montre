@@ -1,0 +1,62 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+
+/*MENU*/
+
+.menu {
+    background-color: #363A47;
+    height: 10vh;
+    width: 100vw;
+    position: fixed;
+
+}
+
+.menu_link {
+
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
+
+.menu_link-li {
+
+    width: 33.33vw;
+    height: 100%;
+    
+
+}
+
+.menu_link-li a {
+    color: #fff;
+    text-decoration:none;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.menu_link-li a:hover {
+    background-color: #e74c3c;
+
+}
+
+/* MON BOUTON */
+
+.mon-bouton {
+    text-decoration: none;
+    color: white;
+    margin: 10vh 0;
+    background-color: #e74c3c;
+    width: 25vw;
+
+}
